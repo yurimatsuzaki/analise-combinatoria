@@ -57,6 +57,9 @@ function multiplicar() {
     } else if(n3.value.length == 0){
         result = Number(n1.value)*Number(n2.value)
     }
+    else{
+        result = Number(n1.value)*Number(n2.value)*Number(n3.value)
+    }
 
     produto.innerHTML=`${result}`
 }
